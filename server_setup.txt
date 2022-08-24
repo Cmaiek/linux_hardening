@@ -14,3 +14,6 @@ sudo nano /etc/fail2ban/jail.local =>
     bantime  = 1d
     findtime = 10m
     maxretry = 3
+
+sudo timedatectl --set-timezone [timezone, ex. Europe/Warsaw]
+	=> list available at sudo timedatectl --list-timezones
