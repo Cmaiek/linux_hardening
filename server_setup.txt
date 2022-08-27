@@ -1,5 +1,6 @@
 sudo apt update
 sudo apt upgrade
+sudo apt install tree
 
 sudo adduser [login]
 sudo usermod -aG sudo [login]
