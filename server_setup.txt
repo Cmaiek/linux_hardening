@@ -20,4 +20,10 @@ sudo timedatectl --set-timezone [timezone, ex. Europe/Warsaw]
 	=> list available at sudo timedatectl --list-timezones
 
 
-sudo deluser ostechnix sudo
+
+
+
+
+# '''if need be...'''
+removing user:
+=> sudo deluser [login] sudo
