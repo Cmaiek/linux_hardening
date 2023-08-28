@@ -12,6 +12,7 @@ sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 
 sudo nano /etc/fail2ban/jail.local =>
+    [DEFAULT]
     bantime  = 1d
     findtime = 10m
     maxretry = 3
